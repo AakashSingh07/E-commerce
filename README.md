@@ -38,7 +38,7 @@ images/                   # Product and banner images
 
 ## 🔗 Live Demo
 
-[View Live Website](https://aakashsingh07.github.io/E-commerce/)<!-- Replace this with actual link if hosted -->
+[View Live Website]([https://aakashsingh07.github.io/E-commerce/](https://github.com/AakashSingh07/E-commerce))<!-- Replace this with actual link if hosted -->
 
 ---
 
