@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fashion - E-Shop</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>E-Shop - Fashion</h1>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../about.html">About</a>
+      <a href="../contact.html">Contact</a>
+      <a href="../cart.html">Cart</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="product-category">
+      <h2>Fashion Products</h2>
+      <div class="product-grid">
+
+        <div class="product-card">
+          <img src="../images/tshirt.jpg" alt="T-Shirt" />
+          <h3>Casual T-Shirt</h3>
+          <p>Comfortable cotton t-shirt available in multiple colors.</p>
+          <p>Price: ₹499</p>
+          <button 
+            class="add-to-cart" 
+            data-name="Casual T-Shirt" 
+            data-price="499" 
+            data-image="../images/tshirt.jpg"
+          >Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          <img src="../images/shoes.jpg" alt="Shoes" />
+          <h3>Shoes</h3>
+          <p>Lightweight and durable for daily wear and sports.</p>
+          <p>Price: ₹1,999</p>
+          <button 
+            class="add-to-cart" 
+            data-name="Shoes" 
+            data-price="1999" 
+            data-image="../images/shoes.jpg"
+          >Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          <img src="../images/jacket.jpg" alt="Jacket" />
+          <h3>Winter Jacket</h3>
+          <p>Warm, stylish, and water-resistant winter wear.</p>
+          <p>Price: ₹2,799</p>
+          <button 
+            class="add-to-cart" 
+            data-name="Winter Jacket" 
+            data-price="2799" 
+            data-image="../images/jacket.jpg"
+          >Add to Cart</button>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 E-Shop. All rights reserved.</p>
+  </footer>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>

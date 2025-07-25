@@ -1,0 +1,29 @@
+project-root/
+│
+├── index.html
+├── about.html
+├── contact.html
+├── cart.html
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   └── script.js
+│
+├── products/
+│   ├── electronics.html
+│   ├── fashion.html
+│   └── groceries.html
+│
+└── images/
+    ├── phone.jpg
+    ├── laptop.jpg
+    ├── earbuds.jpg
+    ├── tshirt.jpg
+    ├── shoes.jpg
+    ├── jacket.jpg
+    ├── rice.jpg
+    ├── oil.jpg
+    ├── milk.jpg
+    └── banner.jpg

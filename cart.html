@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Cart</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header>
+    <h1 class="site-title">Your Shopping Cart</h1>
+    <div class="navbar">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products/electronics.html">Electronics</a></li>
+          <li><a href="products/fashion.html">Fashion</a></li>
+          <li><a href="products/groceries.html">Groceries</a></li>
+          <li><a href="cart.html">Cart</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="cart-container">
+    <section>
+      <h2 class="cart-heading">Cart Summary</h2>
+      <table class="cart-table">
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Price (₹)</th>
+            <th>Quantity</th>
+            <th>Total (₹)</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="cart-table">
+        </tbody>
+      </table>
+
+      <h3 class="cart-total" id="total-price">Grand Total: ₹0</h3>
+    </section>
+
+    <section class="cart-buttons">
+      <button onclick="location.href='index.html'">← Continue Shopping</button>
+      <button id="checkout-btn">Checkout →</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My E-Commerce Store | Built by Aakash Singh</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

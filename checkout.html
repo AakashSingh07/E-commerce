@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Checkout</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+  <header>
+    <h1 class="site-title">Checkout</h1>
+    <div class="navbar">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products/electronics.html">Electronics</a></li>
+          <li><a href="products/fashion.html">Fashion</a></li>
+          <li><a href="products/groceries.html">Groceries</a></li>
+          <li><a href="cart.html">Cart</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="checkout-page">
+    <section>
+      <h2>Thank you for your order! ✅</h2>
+      <p>Your payment will be processed shortly. We'll contact you via email with shipping details.</p>
+      <button onclick="location.href='index.html'">← Back to Home</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My E-Commerce Store | Built by Aakash Singh</p>
+  </footer>
+
+  <!-- Clear cart after order -->
+  <script>
+    localStorage.removeItem("cart");
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Groceries - E-Shop</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>E-Shop - Groceries</h1>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../about.html">About</a>
+      <a href="../contact.html">Contact</a>
+      <a href="../cart.html">Cart</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="product-category">
+      <h2>Grocery Items</h2>
+      <div class="product-grid">
+
+        <div class="product-card">
+          <img src="../images/rice.jpg" alt="Rice" />
+          <h3>Premium Basmati Rice</h3>
+          <p>Long-grain rice perfect for everyday meals.</p>
+          <p>Price: ₹120/kg</p>
+          <button 
+            class="add-to-cart" 
+            data-name="Premium Basmati Rice" 
+            data-price="120" 
+            data-image="../images/rice.jpg"
+          >Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          <img src="../images/oil.jpg" alt="Cooking Oil" />
+          <h3>Sunflower Cooking Oil</h3>
+          <p>Healthy and light for cooking and frying.</p>
+          <p>Price: ₹180/litre</p>
+          <button 
+            class="add-to-cart" 
+            data-name="Sunflower Cooking Oil" 
+            data-price="180" 
+            data-image="../images/oil.jpg"
+          >Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          <img src="../images/milk.jpg" alt="Milk" />
+          <h3>Full Cream Milk</h3>
+          <p>Rich in nutrients and taste, sourced fresh.</p>
+          <p>Price: ₹60/litre</p>
+          <button 
+            class="add-to-cart" 
+            data-name="Full Cream Milk" 
+            data-price="60" 
+            data-image="../images/milk.jpg"
+          >Add to Cart</button>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 E-Shop. All rights reserved.</p>
+  </footer>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Electronics - E-Shop</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+  <header>
+    <h1 class="site-title">E-Shop - Electronics</h1>
+    <nav class="navbar">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+        <li><a href="../cart.html">Cart</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="product-category">
+      <h2>Electronic Products</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="../images/phone.jpg" alt="Smartphone" />
+          <h3>Smartphone</h3>
+          <p>High performance phone with latest features.</p>
+          <p>Price: ₹15,000</p>
+          <button class="add-to-cart" 
+                  data-name="Smartphone" 
+                  data-price="15000" 
+                  data-image="../images/phone.jpg">
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="product-card">
+          <img src="../images/laptop.jpg" alt="Laptop" />
+          <h3>Laptop</h3>
+          <p>Powerful laptop suitable for work and gaming.</p>
+          <p>Price: ₹45,000</p>
+          <button class="add-to-cart" 
+                  data-name="Laptop" 
+                  data-price="45000" 
+                  data-image="../images/laptop.jpg">
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="product-card">
+          <img src="../images/earbuds.jpg" alt="Wireless Earbuds" />
+          <h3>Wireless Earbuds</h3>
+          <p>Crystal-clear sound with noise cancellation.</p>
+          <p>Price: ₹2,500</p>
+          <button class="add-to-cart" 
+                  data-name="Wireless Earbuds" 
+                  data-price="2500" 
+                  data-image="../images/earbuds.jpg">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 E-Shop. All rights reserved.</p>
+  </footer>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>
