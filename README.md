@@ -38,8 +38,6 @@ images/                   # Product and banner images
 
 ## 🔗 Live Demo
 
-## 🔗 Live Demo
-
 [View GitHub Repository](https://github.com/AakashSingh07/E-commerce)
 
 ---
