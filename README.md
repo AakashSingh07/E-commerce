@@ -15,6 +15,7 @@ css/style.css             # Main stylesheet
 js/script.js              # JavaScript file  
 images/                   # Product and banner images   
 
+
 ---
 
 ## 💡 Features
@@ -29,10 +30,23 @@ images/                   # Product and banner images
 
 ## 🔧 Tools Used
 
-- **HTML5**
-- **CSS3**
-- **JavaScript**
+- **HTML5**  
+- **CSS3**  
+- **JavaScript**  
 - **Google Fonts**
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Homepage  
+![Homepage](images/screenshot-home.png)
+
+### 🛍️ Product Page  
+![Product Page](images/screenshot-product.png)
+
+### 🛒 Cart Page  
+![Cart Page](images/screenshot-cart.png)
 
 ---
 
