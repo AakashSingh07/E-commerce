@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header>
+    <h1 class="site-title">Contact Us</h1>
+    <div class="navbar">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products/electronics.html">Electronics</a></li>
+          <li><a href="products/fashion.html">Fashion</a></li>
+          <li><a href="products/groceries.html">Groceries</a></li>
+          <li><a href="cart.html">Cart</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contact-container">
+    <section>
+      <h2 class="contact-heading">Get in Touch</h2>
+      <form id="contact-form" class="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="contact-name" placeholder="Your Name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="contact-email" placeholder="Your Email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="contact-message" rows="5" placeholder="Your message..." required></textarea>
+
+        <button type="submit">Send Message</button>
+        <p id="contact-status" style="margin-top: 10px;"></p>
+      </form>
+    </section>
+
+    <section>
+      <h3 class="contact-subheading">Customer Support</h3>
+      <ul class="contact-info">
+        <li>📞 Phone: +91 96620 03441</li>
+        <li>📧 Email: support@ecommerce.com</li>
+        <li>🕒 Working Hours: Mon - Sat | 9:00 AM - 7:00 PM</li>
+      </ul>
+    </section>
+
+    <section>
+      <h4 class="faq-heading">FAQ</h4>
+      <details>
+        <summary>How can I track my order?</summary>
+        <p>Once your order is shipped, a tracking ID will be emailed to you.</p>
+      </details>
+      <details>
+        <summary>What is your return policy?</summary>
+        <p>You can return products within 7 days of delivery.</p>
+      </details>
+      <details>
+        <summary>Do you offer discounts?</summary>
+        <p>Yes, check the homepage and special deals section regularly!</p>
+      </details>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My E-Commerce Store | Built by Aakash Singh</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

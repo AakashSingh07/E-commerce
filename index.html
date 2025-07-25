@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My E-Commerce Store</title>
+  <link rel="icon" href="images/favicon.ico.png" type="image/x-icon" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+  
+  <header>
+     <h1 class="site-title">E-commerce Shopping Platform – QuickKart</h1>
+    <div class="navbar">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products/electronics.html">Electronics</a></li>
+          <li><a href="products/fashion.html">Fashion</a></li>
+          <li><a href="products/groceries.html">Groceries</a></li>
+          <li><a href="cart.html">Cart</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <h2 class="hero-title">Big Deals on Top Products!</h2>
+      <p class="hero-subtext">Shop the latest gadgets, fashion, and grocery essentials now.</p>
+      <img src="images/banner.jpg" alt="Super Sale Offer Banner" />
+    </section>
+
+    <section class="product-category">
+      <h3>Electronics</h3>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="images/phone.jpg" alt="Smartphone" />
+          <h4>Smartphone</h4>
+          <p>₹15,000</p>
+          <button class="add-to-cart" data-name="Smartphone" data-price="15000" data-image="images/phone.jpg">Add to
+            Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="images/laptop.jpg" alt="Laptop" />
+          <h4>Laptop</h4>
+          <p>₹45,000</p>
+          <button class="add-to-cart" data-name="Laptop" data-price="45000" data-image="images/laptop.jpg">Add to
+            Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="images/earbuds.jpg" alt="Wireless Earbuds" />
+          <h4>Wireless Earbuds</h4>
+          <p>₹2,000</p>
+          <button class="add-to-cart" data-name="Wireless Earbuds" data-price="2000" data-image="images/earbuds.jpg">Add
+            to Cart</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="product-category">
+      <h3>Fashion</h3>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="images/tshirt.jpg" alt="Cool T-Shirt" />
+          <h4>Cool T-Shirt</h4>
+          <p>₹500</p>
+          <button class="add-to-cart" data-name="Cool T-Shirt" data-price="500" data-image="images/tshirt.jpg">Add to
+            Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="images/shoes.jpg" alt="Running Shoes" />
+          <h4>Sneakers Shoes</h4>
+          <p>₹2,500</p>
+          <button class="add-to-cart" data-name="Running Shoes" data-price="2500" data-image="images/shoes.jpg">Add to
+            Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="images/jacket.jpg" alt="Winter Jacket" />
+          <h4>Winter Jacket</h4>
+          <p>₹3,200</p>
+          <button class="add-to-cart" data-name="Winter Jacket" data-price="3200" data-image="images/jacket.jpg">Add to
+            Cart</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="product-category">
+      <h3>Groceries</h3>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="images/rice.jpg" alt="Rice 5kg" />
+          <h4>Rice 5kg</h4>
+          <p>₹400</p>
+          <button class="add-to-cart" data-name="Rice 5kg" data-price="400" data-image="images/rice.jpg">Add to
+            Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="images/oil.jpg" alt="Cooking Oil 1L" />
+          <h4>Cooking Oil 1L</h4>
+          <p>₹160</p>
+          <button class="add-to-cart" data-name="Cooking Oil 1L" data-price="160" data-image="images/oil.jpg">Add to
+            Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="images/milk.jpg" alt="Milk 1L" />
+          <h4>Milk 1L</h4>
+          <p>₹60</p>
+          <button class="add-to-cart" data-name="Milk 1L" data-price="60" data-image="images/milk.jpg">Add to
+            Cart</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <h3>What Our Customers Say</h3>
+      <p>"Excellent products and fast delivery!" – Aakash Singh</p>
+      <p>"Very affordable and great support!" – Krish Rajput</p>
+    </section>
+
+\    <section class="newsletter">
+      <h4>Subscribe to our Newsletter</h4>
+      <form id="newsletter-form">
+        <input type="email" id="newsletter-email" placeholder="Enter your email" required />
+        <button type="submit">Subscribe</button>
+        <p id="newsletter-message" style="margin-top: 10px;"></p>
+      </form>
+    </section>
+
+  </main>
+
+
+  <footer>
+    <p>&copy; 2025 My E-Commerce Store | Designed by Aakash Singh</p>
+  </footer>
+
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
