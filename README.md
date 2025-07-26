@@ -6,6 +6,7 @@ QuickKart is a responsive e-commerce website designed for seamless online shoppi
 
 ## 📁 Project Structure
 
+```text
 index.html                # Homepage  
 about.html                # About page  
 contact.html              # Contact page  
@@ -17,8 +18,9 @@ js/script.js              # JavaScript file
 screenshot-home.png       # Screenshot - Homepage  
 screenshot-cart.png       # Screenshot - Cart page  
 screenshot-product.png    # Screenshot - Product page  
-README.md                 # Project documentation  
-  
+README.md                 # Project documentation
+
+```
 
 
 ---
