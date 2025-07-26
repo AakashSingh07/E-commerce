@@ -40,13 +40,13 @@ images/                   # Product and banner images
 ## 📸 Screenshots
 
 ### 🏠 Homepage  
-![Homepage](screenshot-cart.png)
+![Homepage](screenshot-home.png)
 
 ### 🛍️ Product Page  
-![Product Page](images/screenshot-product.png)
+![Product Page](screenshot-product.png)
 
 ### 🛒 Cart Page  
-![Cart Page](images/screenshot-cart.png)
+![Cart Page](screenshot-cart.png)
 
 ---
 
