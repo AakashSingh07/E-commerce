@@ -65,4 +65,4 @@ README.md                 # Project documentation
 
 ## 📌 Author
 
-Made with ❤️ by [Aakash Singh](https://github.com/AakashSingh07)
+Made with by [Aakash Singh](https://github.com/AakashSingh07)
