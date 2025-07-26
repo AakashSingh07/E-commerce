@@ -10,10 +10,15 @@ index.html                # Homepage
 about.html                # About page  
 contact.html              # Contact page  
 cart.html                 # Shopping cart page  
-products/                 # Product category pages (electronics, fashion, groceries)  
+checkout.html             # Checkout page  
+products/                 # Product category pages  
 css/style.css             # Main stylesheet  
 js/script.js              # JavaScript file  
-images/                   # Product and banner images   
+screenshot-home.png       # Screenshot - Homepage  
+screenshot-cart.png       # Screenshot - Cart page  
+screenshot-product.png    # Screenshot - Product page  
+README.md                 # Project documentation  
+  
 
 
 ---
